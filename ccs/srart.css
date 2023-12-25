@@ -48,6 +48,8 @@ html {
 
 .header {
    display: flex;
+   justify-content: center;
+   align-items: center;
    gap: 210px;
    padding-top:33px;
    padding-bottom: 55px;
@@ -70,7 +72,6 @@ html {
    display: flex;
    list-style-type: none;
    gap: 55px;
-   padding-top: 4px;
 }
 .header-nav a {
    font-family: Muller;
@@ -97,7 +98,6 @@ html {
 .header_icon {
    display: flex;
    gap: 25px;
-   margin-top: 10px;
 }
 li.socilal_icon {
    text-decoration: none;
@@ -515,7 +515,7 @@ li.socilal_iconn {
    background-color: transparent;
    border: none;
    cursor: pointer;
-   margin-top: 19px;
+   margin-top: 0px;
 }
 
 .mobail_logo {
@@ -717,6 +717,7 @@ display: none;
 }
 .header-burger {
    display: block;
+   margin:0 auto;
 }
 .header {
    gap: 166px;
@@ -826,6 +827,9 @@ footer {
    .container {
     max-width: 590px;
    }
+   .burger {
+      margin-top: 3px;
+  }
    .header {
       gap: 100px;
   }
@@ -905,15 +909,11 @@ footer {
    .container {
     max-width: 400px;
    }
-   .header-burger {
-      margin-left: 50px;
-  }
    .footer-nav1 {
-      width: 230px;
+      width: 250px;
   }
    .header {
       gap: 35px;
-      padding-bottom: 60px;
   }
   li.socilal_icon {
    width: 25px;
@@ -921,7 +921,6 @@ footer {
 }
 .header_icon {
    gap: 15px;
-   margin-top:15px;
 }
 
 .title {
@@ -1068,6 +1067,23 @@ h2 {
 .about {
    gap: 18px;
 }
+.footer_title {
+   font-size: 12.02px;
+}
+.footer_text {
+   font-size: 14px;
+   margin-bottom: -25px;
+}
+.footer_tex {
+   font-size: 14px;
+   margin-bottom: 10px;
+}
+.footer-nav1 a {
+   font-size: 13px;
+}
+.footer_tel {
+   font-size: 12.02px;
+}
 }
 @media (max-width: 380px){
 .text {
@@ -1100,5 +1116,13 @@ h2 {
    margin-left: 100px;
 }
    }
+   @media (max-width: 365px){
+      .footer_item {
+         width: 110px;
+     }
+     .footer-nav1 {
+      width: 230px;
+  }
+      }
  
 
