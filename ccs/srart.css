@@ -298,7 +298,7 @@ width: 656px;
 }
 .artical_wrapper{
    display: flex;
-   gap: 133px;
+   gap: 125px;
    justify-content: center;
    align-items: center;
 }
