@@ -793,10 +793,6 @@ display: none;
    grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
    margin-left:-95px;
 }
-li.socilal_iconn {
-   width: 25px;
-   height: 25px;
-}
 .footer_item {
    width: 237px;
 }
@@ -909,10 +905,6 @@ width: 360px;
 .footer_grid {
    margin-left: -130px;
 }
-li.socilal_iconn {
-   width: 20px;
-   height: 20px;
-}
 .footer_item {
    width: 201px;
 }
@@ -1010,20 +1002,16 @@ h2 {
    height: 260px;
 }
 .footer_grid {
-   margin-left:-73px;
+   margin-left:-61px;
 }
 .footer_box {
    gap: 140px;
 }
 .footer_item {
-   width: 120px;
+   width: 150px;
 }
 .footer_iconn {
    margin-left: -40px;
-}
-
-.footer_tel {
-   font-size: 13.02px;
 }
 .footer_title {
    line-height: 140%;
