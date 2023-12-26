@@ -122,7 +122,7 @@ li.socilal_icon {
    background-image: url(../img/vk.svg);
 }
 .title{
-   color:#C42938;
+   color:#C64933;
    font-family: Muller;
    font-size: 70px;
    font-style: normal;
@@ -140,10 +140,10 @@ li.socilal_icon {
    width: 633px;
    margin-bottom: 41px;
 }
-.button_bg{
+.button_bg,.button_bg_white,.button_bg_articail{
 display: block;
 border-radius: 30px;
-border: 2px solid #C42938;
+border: 2px solid #C64933;
 color: #FFF;
 font-family: Muller;
 font-size: 18px;
@@ -156,8 +156,19 @@ text-decoration: none;
 transition: all 3s ease;
 margin-top: 37px;
 }
+.button_bg_white{
+   border: 2px solid #CCB2A6;
+}
+.button_bg_white:hover,.button_bg_articail:hover{
+   background:#111313;
+}
+.button_bg_articail{
+ margin: 0 auto;
+ border: 2px solid #D9B698;
+}
 .button_bg:hover{
-  background: #170028;
+  background: #C64933;
+  color: #000000;
 }
 /* container_wrap */
 section{
@@ -168,7 +179,7 @@ section{
  margin: 0 auto;
 }
 h2{
-   color:#C42938;
+   color:#C64933;
    font-family: Muller;
    font-size: 60px;
    font-style: normal;
@@ -180,7 +191,7 @@ h2{
 }
 .img{
  border-radius: 60px;
- border: 1px solid #C42938;
+ border: 2px solid #C42938;
 }
 .row{
  display: flex;
@@ -287,7 +298,7 @@ width: 656px;
  }
 /* articail */
 .section_artical{
- background: #061E3D;
+ background: #070D21;
  padding: 25px 0px;
  margin-top: 60px;
 }
@@ -312,9 +323,9 @@ width: 656px;
    gap: 28px;
 }
 .form-email {
-   color: #f3f3f3;
+   color: #D9B698;
    border-radius: 30px;
-   border: 2px solid #C42938;
+   border: 2px solid #D9B698;
    background: transparent;
    font-family: Muller;
    font-weight:300;
@@ -324,26 +335,7 @@ width: 656px;
    border-radius: 30px;
 }
 .form-email::placeholder{
-   color: #ffffff;
- }
- .button_bg_articail{
-   display: block;
-   margin: 0 auto;
-   border-radius: 30px;
-   border: 2px solid #C42938;
-   color: #FFF;
-   font-family: Muller;
-   font-size: 18px;
-   font-style: normal;
-   font-weight: 500;
-   text-align: center;
-   padding: 16px 45px;
-   width: 175px;
-   text-decoration: none;
-   transition: all 3s ease;
- }
- .button_bg_articail:hover{
-   background: #170028;
+   color: #D9B698;
  }
 .offer_arcilail{
    transform: translate(3%, -27px);
@@ -434,7 +426,7 @@ li.socilal_iconn {
    text-decoration: none;
 }
 .footer_tel:hover{
-   color:#b878a9;
+   color: #D9B698;
 }
 .footer_grid {
    margin-top: -10px;
@@ -473,7 +465,7 @@ li.socilal_iconn {
 }
 
 .footer-nav a:hover {
-   color: #b878a9;
+   color:  #D9B698;
 }
 .footer-nav1{
    list-style-type: none;
@@ -501,7 +493,7 @@ li.socilal_iconn {
    color: #fff;
 }
 .footer-nav1 a:hover {
- color:#b878a9;
+ color: #D9B698;
 }
 /* модалька */
 /* mobail */
