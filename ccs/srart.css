@@ -1073,19 +1073,18 @@ h2 {
 }
 .footer-nav1 a {
    font-size: 13px;
+   line-height: 25px;
 }
 .footer_tel {
    font-size: 12.02px;
 }
 }
-@media (max-width: 380px){
+@media (max-width: 385px){
 .text {
    width: 320px;
 }
-
 h2 {
    font-size: 28px;
-   width:340px
 }
 .about_text {
    width: 225px;
@@ -1114,8 +1113,17 @@ h2 {
          width: 110px;
      }
      .footer-nav1 {
-      width: 230px;
+      width: 253px;
   }
+  .footer_grid {
+   margin-left: 90px;
+}
       }
+      @media (max-width: 352px){
+         .footer-nav1 a {
+            font-size: 11px;
+            line-height: 20px;
+        }
+        }
  
 
