@@ -862,7 +862,7 @@ width: 360px;
    width: 400px;
 }
 .offer_arcilail {
-   transform: translate(0%, -15px);
+   transform: translate(0%,0px);
 }
 .titl {
    font-size: 40px;
