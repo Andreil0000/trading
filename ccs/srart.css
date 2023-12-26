@@ -905,8 +905,12 @@ footer {
     max-width: 400px;
    }
    .footer-nav1 {
-      width: 250px;
+      width: 270px;
   }
+  .footer-nav1 a {
+   font-size: 13px;
+   line-height: 25px;
+}
    .header {
       gap: 35px;
   }
@@ -1071,12 +1075,11 @@ h2 {
    font-size: 14px;
    margin-bottom: 10px;
 }
-.footer-nav1 a {
-   font-size: 13px;
-   line-height: 25px;
-}
 .footer_tel {
    font-size: 12.02px;
+}
+.footer_grid {
+   margin-left: 100px;
 }
 }
 @media (max-width: 385px){
@@ -1105,25 +1108,23 @@ h2 {
 }
 .footer_grid {
    margin-top: -200px;
-   margin-left: 100px;
+   margin-left: 90px;
 }
    }
    @media (max-width: 365px){
       .footer_item {
          width: 110px;
      }
-     .footer-nav1 {
-      width: 253px;
-  }
-  .footer_grid {
-   margin-left: 90px;
+  .footer-nav1 a {
+   font-size: 12px;
+   line-height: 25px;
 }
       }
       @media (max-width: 352px){
          .footer-nav1 a {
             font-size: 11px;
             line-height: 20px;
-        }
+         }
         }
  
 
