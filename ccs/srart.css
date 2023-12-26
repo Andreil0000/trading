@@ -1060,22 +1060,30 @@ h2 {
  .box {
    bottom: 10%;
 }
+.footer_grid {
+   display: flex;
+   flex-direction: column;
+   margin-left: 31px;
+   margin-top: -120px;
+ }
+ .footer-nav {
+    list-style-type: none;
+    margin-left: -69px;
+}
+.footer-nav1 a {
+ font-size: 14px;
+ line-height: 30px;
+}
+.footer_box {
+   gap: 141px;
+}
 }
 @media (max-width: 400px){
    .text_wrapper {
       font-size: 13px;
       max-width: 51%;
   }
-  .footer_grid {
-     display: flex;
-     flex-direction: column;
-     margin-left: 31px;
-     margin-top: -120px;
-   }
-   .footer-nav {
-      list-style-type: none;
-      margin-left: -69px;
-  }
+ 
 .header {
    gap: 0px;
 }
@@ -1093,10 +1101,6 @@ h2 {
 }
 .box {
    bottom: 5%;
-}
-.footer-nav1 a {
-   font-size: 14px;
-   line-height: 30px;
 }
 }
 @media (max-width: 385px){
