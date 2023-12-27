@@ -721,6 +721,9 @@ margin: 0 auto;
     text-decoration: none;
     color: #fff;
    }
+   .footer-nav1_mobail a:hover{
+      color: #D9B698;
+   }
   .header-nav {
 display: none;
 }
